@@ -1,0 +1,12 @@
+[package]
+name = "gkrslog"
+version = "0.1.0"
+authors = ["Gustavo Noronha Silva <gustavo@noronha.eti.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = { version = "0.12" }
+regex = { version = "1" }
+structopt = { version = "0.3" }
